@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-# Define a translation dictionary for Vietnamese waste labels
+image.png# Define a translation dictionary for Vietnamese waste labels
 WASTE_LABEL_TRANSLATIONS = {
     "plastic nhựa": "Plastic",
     "giấy": "Paper",
@@ -86,8 +86,12 @@ def preprocess_image(image):
     # TODO: Implement image preprocessing
     pass
 
-@app.route('/api/classify', methods=['POST'])
-def classify_waste():
+@app.route('/', methods=['GET'])
+def index():
+    return "Backend is running!"
+
+@app.route('/classify', methods=['POST'])
+def classify_image():
     if 'image' not in request.files:
         return jsonify({'error': 'No image provided'}), 400
     
