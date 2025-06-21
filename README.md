@@ -53,7 +53,9 @@ npm install
 npm start
 ```
 
-check out at : https://warm-elf-2274ad.netlify.app/
+** check out at **: https://warm-elf-2274ad.netlify.app/
+
+
 (This is just a backend  deployment server by render : https://wastewise-backend-jy27.onrender.com)
 ## Contributing
 
