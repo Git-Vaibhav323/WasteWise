@@ -5,4 +5,4 @@ numpy==1.26.0
 python-dotenv==1.0.0
 requests==2.31.0
 gunicorn==21.2.0
-opencv-python==4.8.0.76 
+opencv-python-headless==4.8.0.76 
