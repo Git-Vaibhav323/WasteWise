@@ -53,12 +53,7 @@ npm install
 npm start
 ```
 
-## Environment Variables
 
-Create a `.env` file in the backend directory with:
-```
-GOOGLE_MAPS_API_KEY=your_api_key_here
-```
 
 ## Contributing
 
